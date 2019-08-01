@@ -1,0 +1,26 @@
+body {
+  -webkit-text-size-adjust: auto;
+}
+
+h1 {
+  color: darkgoldenrod;
+  /* 디폴트 (16px) 의 50% 적용 */
+  font-size: 50%;
+}
+
+section > h2 {
+  color: skyblue;
+/* 상속의 영향 (section은 8px) -> 8*5 -> 40px */
+  font-size: 5em;
+}
+
+ul {
+  /* 루트(16px) 의 2배 -> 상속의 영향이 없다 */
+  font-size: 2rem;  /* rem 은 디폴트 사이즈에 영향을 받는다. */
+}
+
+#box {
+  width: 50vw;
+  height: 100px;
+  background-color: violet
+}
