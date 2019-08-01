@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- 세살버릇 여든간다 3 -->
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+
+<body>
+  <!-- form 에서는 제출하는 방법과 제출하는 장소가 매우 중요 -->
+
+  <form action="#">  <!-- action 에 #을 넣으면 아무데도 보내지 않겠다는 뜻-->
+    <!-- action : 어디로 form 을 제출할 지 적어주는 곳 -->
+    TEXT: <input type="text" name=text placeholder="내용을 입력해주세요"><br> <!-- text 를 받는 곳 -->
+    <!-- placeholder : input 메세지 출력-->
+    NUMBER: <input type="number" name=number disabled placeholder="숫자를 입력해주세요"><br>
+    <!-- disabled : 해당 input 을 안 쓰겠다. => 디폴트값(명시하지않은경우)은 False-->
+    PASSWORD: <input type="password" name=password placeholder="비밀번호 입력"><br>
+    E-MAIL: <input type="email" name=email placeholder="이메일 입력"><br>
+    DATE: <input type="date" name=birthday value="2019-08-01"><br> <!-- value: input 이 갖는 값 -->
+
+    <input type="radio" name="language" value="1">HTML<br />
+    <input type="radio" name="language" value="2" checked>CSS<br />
+    <input type="radio" name="language" value="3">JS<br />
+    <hr>  <!-- 다른 다양한 input 궁금하면 html input type : w3schools.com -->
+
+    <select name="country">
+      <option value="1">한국</option>
+      <option value="2">중국</option>
+      <option value="3" disabled>일본</option>
+      <select><br>
+
+      <input type="checkbox" name="option" value="1">
+      <input type="checkbox" name="option" value="2"><br>  <!-- checkbox 는 여러 개 선택 가능 -->
+
+      <input type="color" value="#FF6600"><br>
+
+      <input type="submit" value="제출하기">
+
+  </form>
+</body>
+
+</html>
