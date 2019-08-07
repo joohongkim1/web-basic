@@ -1,0 +1,17 @@
+/* li {
+  display: inline;  /* 기본값은 block 요소인데 inline 으로 변경 가능 
+} */
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#bye {
+  display: none;
+}
+
+#hollow {
+  visibility: hidden;
+}

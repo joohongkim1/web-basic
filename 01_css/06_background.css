@@ -1,0 +1,43 @@
+/* 
+  background-image: url(https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+   background-size: cover; 
+   background-size: contain;
+  background-size: cover; 
+   background-size: 100%;  width, height 순으로 적용, 두 번째 인자 안 적어주는 게 좋음 
+                          기본값은 auto, 보통 cover나 100% 만 씀
+   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+
+} */
+
+/* p {
+  font-family: 'Beth Ellen', cursive;
+}
+
+* {   전체 적용 애스터리스크(*)
+  font-family: 'Beth Ellen', cursive;
+} */
+
+body {
+  font-family: 'Lacquer', sans-serif;
+}
+
+p {
+  font-size: 2.5rem;
+  font-weight: bold; /* 폰트 두께 */
+}
+
+/* span {
+  font-size: 150%;
+  font-family: 'Times New Roman', monospace;
+} */
+
+span {
+  /* font-size: 150%;
+  font-family: 'Times New Roman', sans-serif; */
+
+  /* font-family, font-size 는 필수값! */
+  font: 'Courier New', 2rem, bold;
+  border: solid;
+}
